@@ -1,8 +1,8 @@
 
 age= 15
-passed_test= 18
+passed_test= True
 
-if age > passed_test:
-    print ("Kamu sudah berhak mendapatkan SIM!")
-if age < passed_test:
-    print ("Maaf, tunggu beberapa tahun lagi")
+if age > 17 and passed_test==True:
+   print ("Kamu berhak mendapatkan SIM!")
+else:
+    print ("Maaf, kamu belum memenuhi syarat mendapatkan SIM")
